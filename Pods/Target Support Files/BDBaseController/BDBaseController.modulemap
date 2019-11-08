@@ -1,0 +1,6 @@
+framework module BDBaseController {
+  umbrella header "BDBaseController-umbrella.h"
+
+  export *
+  module * { export * }
+}

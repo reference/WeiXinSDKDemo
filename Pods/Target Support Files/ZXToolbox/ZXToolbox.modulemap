@@ -1,0 +1,6 @@
+framework module ZXToolbox {
+  umbrella header "ZXToolbox-umbrella.h"
+
+  export *
+  module * { export * }
+}

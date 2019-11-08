@@ -1,0 +1,10 @@
+${PODS_ROOT}/Target Support Files/Pods-WeiXinSDKDemo/Pods-WeiXinSDKDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/BDBaseController/BDBaseController.framework
+${BUILT_PRODUCTS_DIR}/BDToolKit/BDToolKit.framework
+${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework
+${BUILT_PRODUCTS_DIR}/FFToast/FFToast.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework
+${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework
+${BUILT_PRODUCTS_DIR}/ZXToolbox/ZXToolbox.framework

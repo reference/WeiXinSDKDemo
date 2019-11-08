@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C6CB45894258D8676039674 /* Pods_WeiXinSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBAD04A59D6C4F27B44350E /* Pods_WeiXinSDKDemo.framework */; };
+		8F4CD7F32375175F00B41B75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4CD7F22375175F00B41B75 /* AppDelegate.m */; };
+		8F4CD7F92375175F00B41B75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4CD7F82375175F00B41B75 /* ViewController.m */; };
+		8F4CD7FC2375175F00B41B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F4CD7FA2375175F00B41B75 /* Main.storyboard */; };
+		8F4CD7FE2375176100B41B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F4CD7FD2375176100B41B75 /* Assets.xcassets */; };
+		8F4CD8012375176100B41B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F4CD7FF2375176100B41B75 /* LaunchScreen.storyboard */; };
+		8F4CD8042375176100B41B75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4CD8032375176100B41B75 /* main.m */; };
+		8F4CD813237518E300B41B75 /* WXAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4CD80E237518E300B41B75 /* WXAPIManager.m */; };
+		8F4CD814237518E300B41B75 /* WXOauth2Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4CD80F237518E300B41B75 /* WXOauth2Model.m */; };
+		8F4CD815237518E300B41B75 /* WXUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4CD812237518E300B41B75 /* WXUserInfoModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68CAEC3BA74010B1B67177EA /* Pods-WeiXinSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeiXinSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-WeiXinSDKDemo/Pods-WeiXinSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8F31D2CE23751D94001633DE /* WeiXinSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeiXinSDKDemo.entitlements; sourceTree = "<group>"; };
+		8F4CD7EE2375175F00B41B75 /* WeiXinSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiXinSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4CD7F12375175F00B41B75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F4CD7F22375175F00B41B75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F4CD7F72375175F00B41B75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F4CD7F82375175F00B41B75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F4CD7FB2375175F00B41B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F4CD7FD2375176100B41B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F4CD8002375176100B41B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F4CD8022375176100B41B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F4CD8032375176100B41B75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F4CD80D237518E300B41B75 /* WXAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAPIManager.h; sourceTree = "<group>"; };
+		8F4CD80E237518E300B41B75 /* WXAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAPIManager.m; sourceTree = "<group>"; };
+		8F4CD80F237518E300B41B75 /* WXOauth2Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXOauth2Model.m; sourceTree = "<group>"; };
+		8F4CD810237518E300B41B75 /* WXUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXUserInfoModel.h; sourceTree = "<group>"; };
+		8F4CD811237518E300B41B75 /* WXOauth2Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXOauth2Model.h; sourceTree = "<group>"; };
+		8F4CD812237518E300B41B75 /* WXUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXUserInfoModel.m; sourceTree = "<group>"; };
+		8F4CD81623751A0500B41B75 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BEBAD04A59D6C4F27B44350E /* Pods_WeiXinSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeiXinSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF69C209FE306D6182AF7E0F /* Pods-WeiXinSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeiXinSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-WeiXinSDKDemo/Pods-WeiXinSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F4CD7EB2375175F00B41B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6CB45894258D8676039674 /* Pods_WeiXinSDKDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EAA31015A9BD9E2421B1045 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEBAD04A59D6C4F27B44350E /* Pods_WeiXinSDKDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73ED78B9429EA3B461B1ACAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68CAEC3BA74010B1B67177EA /* Pods-WeiXinSDKDemo.debug.xcconfig */,
+				BF69C209FE306D6182AF7E0F /* Pods-WeiXinSDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8F4CD7E52375175F00B41B75 = {
+			isa = PBXGroup;
+			children = (
+				8F4CD7F02375175F00B41B75 /* WeiXinSDKDemo */,
+				8F4CD7EF2375175F00B41B75 /* Products */,
+				73ED78B9429EA3B461B1ACAC /* Pods */,
+				2EAA31015A9BD9E2421B1045 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F4CD7EF2375175F00B41B75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F4CD7EE2375175F00B41B75 /* WeiXinSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F4CD7F02375175F00B41B75 /* WeiXinSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8F31D2CE23751D94001633DE /* WeiXinSDKDemo.entitlements */,
+				8F4CD80C237518C400B41B75 /* WXAPI */,
+				8F4CD7FD2375176100B41B75 /* Assets.xcassets */,
+				8F4CD80B2375189B00B41B75 /* Delegate */,
+				8F4CD80A2375188700B41B75 /* Controller */,
+				8F4CD8022375176100B41B75 /* Info.plist */,
+				8F4CD8032375176100B41B75 /* main.m */,
+				8F4CD81623751A0500B41B75 /* PrefixHeader.pch */,
+			);
+			path = WeiXinSDKDemo;
+			sourceTree = "<group>";
+		};
+		8F4CD80A2375188700B41B75 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F4CD7FA2375175F00B41B75 /* Main.storyboard */,
+				8F4CD7FF2375176100B41B75 /* LaunchScreen.storyboard */,
+				8F4CD7F72375175F00B41B75 /* ViewController.h */,
+				8F4CD7F82375175F00B41B75 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F4CD80B2375189B00B41B75 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8F4CD7F12375175F00B41B75 /* AppDelegate.h */,
+				8F4CD7F22375175F00B41B75 /* AppDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		8F4CD80C237518C400B41B75 /* WXAPI */ = {
+			isa = PBXGroup;
+			children = (
+				8F4CD80D237518E300B41B75 /* WXAPIManager.h */,
+				8F4CD80E237518E300B41B75 /* WXAPIManager.m */,
+				8F4CD811237518E300B41B75 /* WXOauth2Model.h */,
+				8F4CD80F237518E300B41B75 /* WXOauth2Model.m */,
+				8F4CD810237518E300B41B75 /* WXUserInfoModel.h */,
+				8F4CD812237518E300B41B75 /* WXUserInfoModel.m */,
+			);
+			path = WXAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F4CD7ED2375175F00B41B75 /* WeiXinSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F4CD8072375176100B41B75 /* Build configuration list for PBXNativeTarget "WeiXinSDKDemo" */;
+			buildPhases = (
+				EB6D8221A86E8C825E37F3B8 /* [CP] Check Pods Manifest.lock */,
+				8F4CD7EA2375175F00B41B75 /* Sources */,
+				8F4CD7EB2375175F00B41B75 /* Frameworks */,
+				8F4CD7EC2375175F00B41B75 /* Resources */,
+				1465669D4C53A950EA9F8EF9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeiXinSDKDemo;
+			productName = WeiXinSDKDemo;
+			productReference = 8F4CD7EE2375175F00B41B75 /* WeiXinSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F4CD7E62375175F00B41B75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "B-A-N";
+				TargetAttributes = {
+					8F4CD7ED2375175F00B41B75 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 8F4CD7E92375175F00B41B75 /* Build configuration list for PBXProject "WeiXinSDKDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F4CD7E52375175F00B41B75;
+			productRefGroup = 8F4CD7EF2375175F00B41B75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F4CD7ED2375175F00B41B75 /* WeiXinSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F4CD7EC2375175F00B41B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4CD8012375176100B41B75 /* LaunchScreen.storyboard in Resources */,
+				8F4CD7FE2375176100B41B75 /* Assets.xcassets in Resources */,
+				8F4CD7FC2375175F00B41B75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1465669D4C53A950EA9F8EF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeiXinSDKDemo/Pods-WeiXinSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeiXinSDKDemo/Pods-WeiXinSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeiXinSDKDemo/Pods-WeiXinSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB6D8221A86E8C825E37F3B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeiXinSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F4CD7EA2375175F00B41B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4CD7F92375175F00B41B75 /* ViewController.m in Sources */,
+				8F4CD815237518E300B41B75 /* WXUserInfoModel.m in Sources */,
+				8F4CD7F32375175F00B41B75 /* AppDelegate.m in Sources */,
+				8F4CD813237518E300B41B75 /* WXAPIManager.m in Sources */,
+				8F4CD8042375176100B41B75 /* main.m in Sources */,
+				8F4CD814237518E300B41B75 /* WXOauth2Model.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F4CD7FA2375175F00B41B75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F4CD7FB2375175F00B41B75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F4CD7FF2375176100B41B75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F4CD8002375176100B41B75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F4CD8052375176100B41B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F4CD8062375176100B41B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F4CD8082375176100B41B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68CAEC3BA74010B1B67177EA /* Pods-WeiXinSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WeiXinSDKDemo/WeiXinSDKDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WeiXinSDKDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = WeiXinSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottban.WeiXinSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F4CD8092375176100B41B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF69C209FE306D6182AF7E0F /* Pods-WeiXinSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WeiXinSDKDemo/WeiXinSDKDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WeiXinSDKDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = WeiXinSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottban.WeiXinSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F4CD7E92375175F00B41B75 /* Build configuration list for PBXProject "WeiXinSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F4CD8052375176100B41B75 /* Debug */,
+				8F4CD8062375176100B41B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F4CD8072375176100B41B75 /* Build configuration list for PBXNativeTarget "WeiXinSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F4CD8082375176100B41B75 /* Debug */,
+				8F4CD8092375176100B41B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F4CD7E62375175F00B41B75 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_WeiXinSDKDemo {
+  umbrella header "Pods-WeiXinSDKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
