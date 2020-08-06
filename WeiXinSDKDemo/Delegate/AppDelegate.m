@@ -32,7 +32,7 @@ SOFTWARE.
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     //注册微信支付
-    BOOL registered = [WXApi registerApp:WX_APP_KEY universalLink:@"https://kkm.votue.com.cn/"];
+    BOOL registered = [WXApi registerApp:WX_APP_KEY universalLink:@"https://ds.okbile.com/"];
     if (registered) {
         NSLog(@"微信注册成功");
     }else{

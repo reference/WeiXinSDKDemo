@@ -400,14 +400,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = WeiXinSDKDemo/WeiXinSDKDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = G48JA4GV7K;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WeiXinSDKDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = WeiXinSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.scottban.WeiXinSDKDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kubo.dsimpai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -420,14 +420,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = WeiXinSDKDemo/WeiXinSDKDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = G48JA4GV7K;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WeiXinSDKDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = WeiXinSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.scottban.WeiXinSDKDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kubo.dsimpai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

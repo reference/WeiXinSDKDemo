@@ -27,8 +27,8 @@ SOFTWARE.
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 #warning 微信的APPKEY在这里定义
-#define WX_APP_KEY       @"<#APP_KEY#>"
-#define WX_SECRET_CODE   @"<#App_secret#>"
+#define WX_APP_KEY       @"wx3c64c0cf2c524766"
+#define WX_SECRET_CODE   @"483e1916c7879ee6196efc7e59d3c258"
 
 #import "WXApi.h"
 #import "WXAPIManager.h"
